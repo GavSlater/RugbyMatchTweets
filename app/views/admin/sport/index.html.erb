@@ -1,0 +1,7 @@
+<h1>Sports</h1>
+
+<% @sports.each do |s| %>
+    <div><%= link_to s.name, "sport/" + s.id.to_s %></div>
+<% end %>
+
+<%= link_to "Add Sport", new_admin_sport_path %>

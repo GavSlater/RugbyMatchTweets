@@ -1,4 +1,9 @@
 RugbyMatchTweets::Application.routes.draw do
+
+  get "home/index"
+
+  #get "admin/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -11,7 +16,9 @@ RugbyMatchTweets::Application.routes.draw do
   # This route can be invoked with purchase_url(:id => product.id)
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+  #resources :admin do
+  #  resources :admin
+  #end
 
   # Sample resource route with options:
   #   resources :products do
@@ -40,15 +47,15 @@ RugbyMatchTweets::Application.routes.draw do
   #   end
 
   # Sample resource route within a namespace:
-  #   namespace :admin do
+  namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+    resources :sport, :path_names => { :create => "brand_new" }
+  end
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 

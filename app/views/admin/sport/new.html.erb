@@ -1,0 +1,7 @@
+<h1>Add New Sport</h1>
+
+<%= form_for [@sport], :url => "/admin/sport" do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit "Add Sport" %>
+<% end %>
