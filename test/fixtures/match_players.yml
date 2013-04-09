@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  match_id: 1
+  full_name: MyString
+  short_name: MyString
+  shirt_number: 1
+  sport_team_position_id: 1
+  home_team: false
+
+two:
+  match_id: 1
+  full_name: MyString
+  short_name: MyString
+  shirt_number: 1
+  sport_team_position_id: 1
+  home_team: false

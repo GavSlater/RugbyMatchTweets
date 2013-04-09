@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  home_team_full_name: MyString
+  home_team_short_name: MyString
+  away_team_full_name: MyString
+  away_team_short_name: MyString
+  match_date: 2013-04-09
+  home_score: 1
+  away_score: 1
+
+two:
+  home_team_full_name: MyString
+  home_team_short_name: MyString
+  away_team_full_name: MyString
+  away_team_short_name: MyString
+  match_date: 2013-04-09
+  home_score: 1
+  away_score: 1

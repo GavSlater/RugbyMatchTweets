@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sport_id: 1
+  name: MyString
+  default_shirt_number: 1
+  teamsheet_order: 1
+
+two:
+  sport_id: 1
+  name: MyString
+  default_shirt_number: 1
+  teamsheet_order: 1
